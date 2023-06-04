@@ -269,7 +269,7 @@ body{
 
 /* Responsive Site  */
 /* Normal Screen  */
-@media only screen and (min-width:667px) {
+@media only screen and (min-width:668px) {
     .menu-container{
         visibility: hidden;
         
@@ -281,7 +281,7 @@ body{
     
 }
 /* Responsive Screen  */
-@media only screen and (max-width:668px) {
+@media only screen and (max-width:669px) {
     .header-container{
        display: none;
        
@@ -291,18 +291,20 @@ body{
       
     }
     
-    header, main, footer{
+      /* header, main{
         width: 95%;
-        margin: 0 auto;
-    }
+        margin: 0 auto; }
+        
+        */
+
+ 
     .menu-container{
         display: flex;
         /* grid-template-columns: repeat(3, 1fr); */
         
         justify-content: space-between;
         align-items: center;
-        
-
+       
     }
     .menu-container a{
         text-decoration: none;
@@ -351,12 +353,12 @@ body{
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        column-gap: 20px;
+        column-gap: 15px;
         
 
     }
     .company-logo-4 img{
-        width: 70%;
+        width: 60%;
     }
     .company-logo-3{
         /* display: grid;
@@ -368,7 +370,7 @@ body{
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        column-gap: 15px;
+        column-gap: 10px;
         
 
     }
@@ -400,4 +402,40 @@ body{
         flex-direction: column-reverse;
     }
    
+/* Company Details part  */
+
+.details-pic img{
+    width: 100%;
+    align-items: center;
+}
+/* .details-pera{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+} */
+.about-details{
+    font-size: 16px;
+    text-align: center;
+    display: block;
+}
+.details-heading{
+        font-size: 28px;
+        text-align: center;
+        display: block;
+}
+.join-button{
+    font-size: 16px;
+        text-align: center;
+        display: block;
+        margin-bottom: 40px;
+}
+.footer-heading{
+    font-size: 16px;
+    font-weight: 700;
+}
+.copyright{
+    font-size: 12px;
+    font-weight: 700;
+}
 }
